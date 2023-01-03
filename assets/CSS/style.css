@@ -1,0 +1,180 @@
+@font-face {
+    font-family: "PokemonSolid";
+    src: url(../FONT/PokemonSolid.ttf);
+}
+
+header {
+    text-align: center;
+    font-family: PokemonSolid;
+    background: linear-gradient(to right, rgb(239, 64, 54), white);
+    letter-spacing: 4px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+body {
+    background-image: url(../IMG/pokemon-rouge-et-bleu-fond-d-ecran-1600x900_47.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    height: 100vh;
+    width: 100vw;
+
+}
+
+.all {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+}
+
+
+#firstLine {
+    display: flex;
+
+}
+
+#secondLine {
+    display: flex;
+}
+
+#thirdLine {
+    display: flex;
+}
+
+#one {
+    border: 1px solid black;
+    background: linear-gradient(180deg, rgb(239, 64, 54) 50%, white 50%);
+
+}
+
+#two {
+    border: 1px solid black;
+    background: linear-gradient(180deg, rgb(239, 64, 54) 50%, white 50%);
+
+}
+
+#three {
+    border: 1px solid black;
+    background: linear-gradient(180deg, rgb(239, 64, 54) 50%, white 50%);
+}
+
+#four {
+    border: 1px solid black;
+    background: linear-gradient(180deg, rgb(239, 64, 54) 50%, white 50%);
+}
+
+#five {
+    border: 1px solid black;
+    background: linear-gradient(180deg, rgb(239, 64, 54) 50%, white 50%);
+
+}
+
+#six {
+    border: 1px solid black;
+    background: linear-gradient(180deg, rgb(239, 64, 54) 50%, white 50%);
+
+}
+
+#seven {
+    border: 1px solid black;
+    background: linear-gradient(180deg, rgb(239, 64, 54) 50%, white 50%);
+
+}
+
+#eight {
+    border: 1px solid black;
+    background: linear-gradient(180deg, rgb(239, 64, 54) 50%, white 50%);
+
+}
+
+#nine {
+    border: 1px solid black;
+    background: linear-gradient(180deg, rgb(239, 64, 54) 50%, white 50%);
+
+}
+
+#palmaresPOne,
+#palmaresPTwo {
+    display: flex;
+}
+
+#refresh {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    text-align: center;
+
+    border: 1px solid black;
+    background: linear-gradient(180deg, rgb(96, 59, 137) 50%, white 50%);
+    margin: auto;
+
+    color: rgb(239, 64, 54);
+
+    text-shadow: 15px 15px 15px black;
+}
+
+#revenge {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    text-align: center;
+
+    border: 1px solid black;
+    background: linear-gradient(180deg, rgb(96, 59, 137) 50%, white 50%);
+    margin: auto;
+    margin-top: 50px;
+    color: rgb(239, 64, 54);
+
+    text-shadow: 15px 15px 15px black;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+}
+
+#players {
+    background-color: rgb(72, 144, 71);
+    border: rgb(50, 103, 75);
+    background-color: rgb(50, 103, 75);
+    background-color: rgb(50, 103, 75);
+    width: 320px;
+    height: 611px;
+    margin-left: 10px;
+    border: 1px solid black;
+    font-family: PokemonSolid;
+    text-align: center;
+}
+
+#players td,
+tr,
+th {
+    border: 1px solid black;
+}
+
+table {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+
+#result {
+    text-align: center;
+
+}
+
